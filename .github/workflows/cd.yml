@@ -21,7 +21,7 @@ jobs:
           username: root
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd finmind-backend
+            cd /root/projects/finmind-backend
             git pull origin main
             docker compose down
             docker compose up -d --build
