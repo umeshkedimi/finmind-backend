@@ -8,4 +8,4 @@ app = FastAPI(
 
 @app.get("/")
 def root():
-    return {"message": "Welcome to FinMind API"}
+    return {"message": "Welcome to FinMind API!!!"}
